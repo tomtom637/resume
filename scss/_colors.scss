@@ -1,0 +1,17 @@
+$primary: #00bcd4;
+$secondary: #f44336;
+$black: #222;
+$white: #f9f9f9;
+
+.primary {
+  color: $primary;
+}
+.secondary {
+  color: $secondary;
+}
+.underline-primary {
+  border-bottom: 1px solid $primary;
+}
+.underline-secondary {
+  border-bottom: 1px solid $secondary;
+}
