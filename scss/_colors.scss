@@ -1,7 +1,9 @@
-$primary: #00bcd4;
+$primary: #046e97;
+$primary-transparent: rgba(4, 109, 151, 0.4);
 $secondary: #f44336;
 $black: #222;
 $white: #f9f9f9;
+$white-transparent: rgba(255, 255, 255, 0.4);
 
 .primary {
   color: $primary;
@@ -10,8 +12,8 @@ $white: #f9f9f9;
   color: $secondary;
 }
 .underline-primary {
-  border-bottom: 1px solid $primary;
+  border-bottom: 3px solid $primary-transparent;
 }
 .underline-secondary {
-  border-bottom: 1px solid $secondary;
+  border-bottom: 3px solid $secondary;
 }

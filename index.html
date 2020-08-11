@@ -4,16 +4,270 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Resume - Thomas Lacombe</title>
+    <meta
+      name="description"
+      content="My online resume, feel free to review it and contact me :)"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/97e3147ee9.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="assets/main.css" />
   </head>
   <body>
-    <header>
-      <h1><span class="primary">Thomas</span> Lacombe</h1>
-      <h3><span class="underline-primary">Freelance</span> Web Developer</h3>
-    </header>
+    <div class="wrapper">
+      <div class="main-container">
+        <!--
+          !ASIDE
+        -->
+        <aside class="aside-content">
+            <div class="container">
+              <h2 class="name">Thomas Lacombe</h2>
+            </div>
+          <!--CONTACT-->
+          <section class="contact">
+            <h2 class="aside-header">CONTACT</h2>
+            <div class="container">
+              <p class="aside-parag">
+                Adress:<br />
+                New Delhi, India
+              </p>
+              <p class="aside-parag">
+                Mobile:<br />
+                <a href="tel:+91 991919191">+91 991919191</a>
+              </p>
+              <p class="aside-parag">
+                Email:<br />
+                <a href="mailto:name@email.com">name@email.com</a>
+              </p>
+              <p class="aside-parag">
+                Website:<br />
+                <a href="www.name.com">www.name.com</a>
+              </p>
+              <p class="aside-parag">
+                Skype:<br />
+                @username
+              </p>
+            </div>
+          </section>
+          <!--ABOUT ME-->
+          <section class="about-me">
+            <h2 class="aside-header">ABOUT ME</h2>
+            <div class="container">
+              <p class="aside-parag">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque
+                ut dolore corrupti! Praesentium accusantium quae alias eaque
+                tempore, laboriosam error blanditiis repellat molestias culpa
+                obcaecati eos non consectetur? Impedit quia error ipsa officia
+                aperiam nam, atque repudiandae animi consequatur eaque ad
+                reprehenderit temporibus minus tenetur amet fugiat voluptatem
+                omnis repellat autem sequi alias illum commodi laudantium velit!
+                Dignissimos esse est ducimus suscipit repudiandae quos iste
+                blanditiis? Totam, cupiditate ipsum! Ratione voluptates, odio
+                ipsam similique voluptas, blanditiis amet laborum ducimus beatae
+                sequi dolor deserunt.
+              </p>
+            </div>
+          </section>
+          <!--HOBBIES-->
+          <section class="hobbies">
+            <h2 class="aside-header">HOBBIES</h2>
+            <div class="container">
+              <div class="flex-items">
+                <span class="hobbies-icons fas fa-running"></span>
+                <span class="hobbies-icons fas fa-guitar"></span>
+                <span class="hobbies-icons fas fa-luggage-cart"></span>
+              </div>
+            </div>
+          </section>
+        </aside>
+        <!--
+          !MAIN
+        -->
+        <main class="main-content">
+          <!--
+          ?SECTION TITLE
+        -->
+          <section class="section-title">
+            <div class="container">
+              <div class="flex-items ai-center">
+                <h1 class="hero-header">
+                  <span class="underline-primary">Freelance</span> Web Developer
+                </h1>
+                <img
+                  class="profile-picture"
+                  src="assets/imgs/profile.jpg"
+                  alt="Thomas Lacombe"
+                />
+              </div>
+            </div>
+          </section>
+          <!--
+          ?SECTION EDUCATION
+        -->
+          <section class="section-education">
+            <div class="container">
+              <h2 class="main-header">
+                <span class="main-icon fas fa-school"></span>
+                EDUCATION
+              </h2>
+              <!--FIRST ITEM-->
+              <article class="infos flex-items">
+                <div class="date-n-location">
+                  <span class="bullet far fa-dot-circle"></span>
+                  <p class="date-parag">
+                    2016 - 2017<br />
+                    Delhi
+                  </p>
+                </div>
+                <div class="description">
+                  <h3 class="description-heading">OPENCLASSROOMS</h3>
+                  <h4 class="description-sub-heading">Junior Web Developer</h4>
+                  <p class="description-parag">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Distinctio itaque aspernatur nobis a odit officia? Ipsum
+                    magnam reprehenderit modi rerum ex enim officiis.
+                    Reprehenderit quae nihil repellat perspiciatis ab dolores
+                    provident ipsam aliquid, exercitationem earum impedit illo
+                    ex praesentium error.
+                  </p>
+                </div>
+              </article>
+              <!--SECOND ITEM-->
+              <article class="infos flex-items">
+                <div class="date-n-location">
+                  <span class="bullet far fa-dot-circle"></span>
+                  <p class="date-parag">
+                    2014 - 2016<br />
+                    Delhi
+                  </p>
+                </div>
+                <div class="description">
+                  <h3 class="description-heading">UNIVERSITY OF LOREM</h32>
+                  <h4 class="description-sub-heading">Graphic Designer</h4>
+                  <p class="description-parag">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Distinctio itaque aspernatur nobis a odit officia? Ipsum
+                    magnam reprehenderit modi rerum ex enim officiis.
+                    Reprehenderit quae nihil repellat perspiciatis ab dolores
+                    provident ipsam aliquid, exercitationem earum impedit illo
+                    ex praesentium error.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </section>
+          <!--
+          ?SECTION EXPERIENCE
+        -->
+          <section class="section-experience">
+            <div class="container">
+              <h2 class="main-header">
+                <span class="main-icon fas fa-building"></span>
+                EXPERIENCE
+              </h2>
+              <!--FIRST ITEM-->
+              <article class="infos flex-items">
+                <div class="date-n-location">
+                  <span class="bullet far fa-dot-circle"></span>
+                  <p class="date-parag">
+                    2018 - Current<br />
+                    Bangalore
+                  </p>
+                </div>
+                <div class="description">
+                  <h3 class="description-heading">DESIGN INC.</h3>
+                  <h4 class="description-sub-heading">Web Developer</h4>
+                  <p class="description-parag">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Distinctio itaque aspernatur nobis a odit officia? Ipsum
+                    magnam reprehenderit modi rerum ex enim officiis.
+                  </p>
+                </div>
+              </article>
+              <!--SECOND ITEM-->
+              <article class="infos flex-items">
+                <div class="date-n-location">
+                  <span class="bullet far fa-dot-circle"></span>
+                  <p class="date-parag">
+                    2018 - Current<br />
+                    Bangalore
+                  </p>
+                </div>
+                <div class="description">
+                  <h3 class="description-heading">DESIGN INC.</h3>
+                  <h4 class="description-sub-heading">Web Developer</h4>
+                  <p class="description-parag">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Distinctio itaque aspernatur nobis a odit officia? Ipsum
+                    magnam reprehenderit modi rerum ex enim officiis.
+                  </p>
+                </div>
+              </article>
+              <!--THIRD ITEM-->
+              <article class="infos flex-items">
+                <div class="date-n-location">
+                  <span class="bullet far fa-dot-circle"></span>
+                  <p class="date-parag">
+                    2018 - Current<br />
+                    Bangalore
+                  </p>
+                </div>
+                <div class="description">
+                  <h3 class="description-heading">DESIGN INC.</h3>
+                  <h4 class="description-sub-heading">Web Developer</h4>
+                  <p class="description-parag">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Distinctio itaque aspernatur nobis a odit officia? Ipsum
+                    magnam reprehenderit modi rerum ex enim officiis.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </section>
+          <!--
+          ?SECTION REFERENCES
+        -->
+          <section class="section-references">
+            <div class="container">
+              <h2 class="main-header">
+                <span class="main-icon fas fa-pen-nib"></span>
+                REFERENCES
+              </h2>
+              <div class="references-info flex-items">
+                <!--FIRST ITEM-->
+                <div class="reference-details">
+                  <h3 class="reference-name">WILLIAM KIEMAN</h3>
+                  <h4 class="reference-position">Director, Design Company ltd.</h4>
+                  <p class="reference-parag">
+                    <a href="tel:0954-55-44-33">Phone: 0954 55 44 33</a>
+                    <br>
+                    <a href="mailto:name@email.com">Email: name@email.com</a>
+                  </p>
+                </div>
+                <!--SECOND ITEM-->
+                <div class="reference-details">
+                  <h3 class="reference-name">WILLIAM KIEMAN</h3>
+                  <h4 class="reference-position">Director, Design Company ltd.</h4>
+                  <p class="reference-parag">
+                    <a href="tel:0954-55-44-33">Phone: 0954 55 44 33</a>
+                    <br>
+                    <a href="mailto:name@email.com">Email: name@email.com</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
   </body>
 </html>

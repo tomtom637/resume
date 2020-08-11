@@ -1,0 +1,57 @@
+.aside-content {
+  background: rgb(6, 77, 105);
+  background: linear-gradient(
+    118deg,
+    rgba(6, 77, 105, 1) 0%,
+    rgba(4, 110, 151, 1) 92%
+  );
+  color: $white;
+  width: 30%;
+  border-right: 3px solid $white-transparent;
+  display: flex;
+  flex-direction: column;
+
+  .aside-header {
+    position: relative;
+    color: $white;
+    text-align: center;
+    padding: 6px 0;
+    border-bottom: 3px solid $white-transparent;
+    border-top: 3px solid $white-transparent;
+    z-index: 1;
+  }
+  .aside-header::before {
+    position: absolute;
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: $black;
+    transform: skewY(-3deg) translateY(-6px);
+    z-index: -5;
+  }
+  .aside-parag {
+    max-width: 300px;
+    margin-bottom: 1rem;
+  }
+  .hobbies-icons {
+    font-size: 30px;
+    display: block;
+  }
+  .name {
+    font-size: 1.6rem;
+    word-spacing: 0.7rem;
+    letter-spacing: 0.05rem;
+    text-align: center;
+    flex-grow: 0;
+  }
+  .contact {
+    flex-grow: 0;
+  }
+  .about-me {
+    flex-grow: 2;
+  }
+  .hobbies {
+    flex-grow: 0;
+  }
+}

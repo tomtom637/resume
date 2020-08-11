@@ -1,0 +1,61 @@
+.main-content {
+  width: 70%;
+  background: rgb(249, 249, 249);
+  background: linear-gradient(
+    118deg,
+    rgba(249, 249, 249, 1) 0%,
+    rgba(232, 232, 232, 1) 90%
+  );
+  padding-left: 1rem;
+
+  .hero-header {
+    font-size: 35px;
+    font-weight: 700;
+  }
+  .main-header {
+    margin-bottom: 2rem;
+  }
+  .main-icon {
+    margin-right: 0.8rem;
+  }
+  .infos {
+    max-width: calc(100% - 30px);
+    margin-bottom: 2rem;
+  }
+  .date-n-location {
+    min-width: 10rem;
+    max-width: 17rem;
+    margin-right: 15px;
+    display: flex;
+  }
+  .bullet {
+    margin-right: 0.5rem;
+  }
+  .date-parag {
+    font-size: 0.9rem;
+  }
+  .description {
+  }
+  .description-heading {
+    margin-bottom: 0.3rem;
+  }
+  .description-sub-heading {
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+  }
+  .description-parag {
+    max-width: 700px;
+  }
+  .reference-name {
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+  }
+  .reference-position {
+    font-size: 0.8rem;
+    margin-bottom: 0.3rem;
+  }
+  .reference-parag {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+  }
+}

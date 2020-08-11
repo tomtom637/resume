@@ -122,18 +122,3 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-/* images rules */
-img {
-  display: block;
-  width: auto;
-  height: auto;
-}
-/* box-sizing rules */
-html {
-  box-sizing: border-box;
-}
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
