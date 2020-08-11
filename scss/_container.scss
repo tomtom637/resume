@@ -6,7 +6,7 @@
 }
 
 .container {
-  margin: 1rem 0;
+  margin: 2rem 1rem;
 }
 
 @media (max-width: 850px) {
@@ -15,5 +15,8 @@
   }
   .main-container > * {
     min-width: 100%;
+  }
+  .container {
+    margin: 1rem 0.4rem;
   }
 }

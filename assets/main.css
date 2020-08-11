@@ -230,7 +230,7 @@ section {
 }
 
 .container {
-  margin: 1rem 0;
+  margin: 2rem 1rem;
 }
 
 @media (max-width: 850px) {
@@ -242,6 +242,9 @@ section {
   }
   .main-container > * {
     min-width: 100%;
+  }
+  .container {
+    margin: 1rem 0.4rem;
   }
 }
 
@@ -340,6 +343,9 @@ section {
   }
   .main-content .date-parag {
     font-size: 0.7rem;
+  }
+  .main-content .description-parag {
+    font-size: 0.8rem;
   }
 }
 
@@ -452,6 +458,21 @@ section {
   }
   .aside-content::after {
     display: none;
+  }
+  .aside-content {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .aside-content .name {
+    margin-top: 2.5rem;
+    margin-bottom: 3rem;
+  }
+  .aside-content .aside-parag {
+    text-align: center;
+  }
+  .aside-content .hobbies-icons {
+    margin: 0 1.5rem 0 1.5rem;
   }
 }
 
