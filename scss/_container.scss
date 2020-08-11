@@ -1,8 +1,19 @@
 .main-container {
+  position: relative;
   max-width: 1280px;
   margin: 0 auto;
   display: flex;
 }
+
 .container {
-  margin: 2rem 1rem;
+  margin: 1rem 0;
+}
+
+@media (max-width: 850px) {
+  .main-container {
+    flex-direction: column-reverse;
+  }
+  .main-container > * {
+    min-width: 100%;
+  }
 }

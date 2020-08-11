@@ -1,4 +1,23 @@
+.aside-content::before {
+  position: absolute;
+  display: block;
+  content: '';
+  width: 100%;
+  height: 5rem;
+  background: $black;
+  transform: skewY(-3deg) translatey(-3rem);
+}
+.aside-content::after {
+  position: absolute;
+  display: block;
+  content: '';
+  width: 100%;
+  height: 5rem;
+  background: $black;
+  transform: skewY(3deg) translatey(-3rem);
+}
 .aside-content {
+  position: relative;
   background: rgb(6, 77, 105);
   background: linear-gradient(
     118deg,
@@ -44,6 +63,8 @@
     letter-spacing: 0.05rem;
     text-align: center;
     flex-grow: 0;
+    margin-top: 3.6rem;
+    margin-bottom: 1rem;
   }
   .contact {
     flex-grow: 0;
@@ -53,5 +74,16 @@
   }
   .hobbies {
     flex-grow: 0;
+  }
+}
+
+@media (max-width: 850px) {
+  .aside-content::before {
+    height: 5px;
+    transform: skewY(0) translatey(0);
+    background: $primary-bright;
+  }
+  .aside-content::after {
+    display: none;
   }
 }

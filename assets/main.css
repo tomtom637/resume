@@ -221,6 +221,7 @@ section {
 }
 
 .main-container {
+  position: relative;
   max-width: 1280px;
   margin: 0 auto;
   display: -webkit-box;
@@ -229,7 +230,19 @@ section {
 }
 
 .container {
-  margin: 2rem 1rem;
+  margin: 1rem 0;
+}
+
+@media (max-width: 850px) {
+  .main-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .main-container > * {
+    min-width: 100%;
+  }
 }
 
 .main-content {
@@ -244,12 +257,17 @@ section {
   font-weight: 700;
 }
 
+.main-content .keyword {
+  font-weight: 100;
+}
+
 .main-content .main-header {
   margin-bottom: 2rem;
 }
 
 .main-content .main-icon {
   margin-right: 0.8rem;
+  color: #6a98aa;
 }
 
 .main-content .infos {
@@ -264,10 +282,14 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .main-content .bullet {
-  margin-right: 0.5rem;
+  margin-right: 0.65rem;
+  color: #6a98aa;
 }
 
 .main-content .date-parag {
@@ -302,7 +324,49 @@ section {
   line-height: 1.2rem;
 }
 
+@media (max-width: 850px) {
+  .main-content .date-n-location {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    min-width: 5rem;
+  }
+  .main-content .bullet {
+    margin-bottom: 1rem;
+  }
+  .main-content .date-parag {
+    font-size: 0.7rem;
+  }
+}
+
+.aside-content::before {
+  position: absolute;
+  display: block;
+  content: '';
+  width: 100%;
+  height: 5rem;
+  background: #222;
+  -webkit-transform: skewY(-3deg) translatey(-3rem);
+          transform: skewY(-3deg) translatey(-3rem);
+}
+
+.aside-content::after {
+  position: absolute;
+  display: block;
+  content: '';
+  width: 100%;
+  height: 5rem;
+  background: #222;
+  -webkit-transform: skewY(3deg) translatey(-3rem);
+          transform: skewY(3deg) translatey(-3rem);
+}
+
 .aside-content {
+  position: relative;
   background: #064d69;
   background: linear-gradient(118deg, #064d69 0%, #046e97 92%);
   color: #f9f9f9;
@@ -357,6 +421,8 @@ section {
   -webkit-box-flex: 0;
       -ms-flex-positive: 0;
           flex-grow: 0;
+  margin-top: 3.6rem;
+  margin-bottom: 1rem;
 }
 
 .aside-content .contact {
@@ -375,6 +441,18 @@ section {
   -webkit-box-flex: 0;
       -ms-flex-positive: 0;
           flex-grow: 0;
+}
+
+@media (max-width: 850px) {
+  .aside-content::before {
+    height: 5px;
+    -webkit-transform: skewY(0) translatey(0);
+            transform: skewY(0) translatey(0);
+    background: #6a98aa;
+  }
+  .aside-content::after {
+    display: none;
+  }
 }
 
 .profile-picture {

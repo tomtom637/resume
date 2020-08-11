@@ -12,11 +12,15 @@
     font-size: 35px;
     font-weight: 700;
   }
+  .keyword {
+    font-weight: 100;
+  }
   .main-header {
     margin-bottom: 2rem;
   }
   .main-icon {
     margin-right: 0.8rem;
+    color: $primary-bright;
   }
   .infos {
     max-width: calc(100% - 30px);
@@ -27,9 +31,11 @@
     max-width: 17rem;
     margin-right: 15px;
     display: flex;
+    align-items: center;
   }
   .bullet {
-    margin-right: 0.5rem;
+    margin-right: 0.65rem;
+    color: $primary-bright;
   }
   .date-parag {
     font-size: 0.9rem;
@@ -57,5 +63,21 @@
   .reference-parag {
     font-size: 0.8rem;
     line-height: 1.2rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .main-content {
+    .date-n-location {
+      flex-direction: column;
+      justify-content: start;
+      min-width: 5rem;
+    }
+    .bullet {
+      margin-bottom: 1rem;
+    }
+    .date-parag {
+      font-size: 0.7rem;
+    }
   }
 }
