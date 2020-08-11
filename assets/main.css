@@ -343,6 +343,7 @@ section {
   }
   .main-content .date-parag {
     font-size: 0.7rem;
+    text-align: center;
   }
   .main-content .description-parag {
     font-size: 0.8rem;
