@@ -74,13 +74,19 @@
     .date-n-location {
       display: block;
       min-width: 4.5rem;
+      padding-top: 0.5rem;
     }
     .bullet {
       display: none;
     }
     .date-parag {
       font-size: 0.7rem;
+      line-height: 0.8rem;
       text-align: center;
+    }
+    .location {
+      display: block;
+      margin-top: 0.2rem;
     }
     .description-parag {
       font-size: 0.8rem;

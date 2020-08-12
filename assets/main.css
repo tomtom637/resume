@@ -334,13 +334,19 @@ section {
   .main-content .date-n-location {
     display: block;
     min-width: 4.5rem;
+    padding-top: 0.5rem;
   }
   .main-content .bullet {
     display: none;
   }
   .main-content .date-parag {
     font-size: 0.7rem;
+    line-height: 0.8rem;
     text-align: center;
+  }
+  .main-content .location {
+    display: block;
+    margin-top: 0.2rem;
   }
   .main-content .description-parag {
     font-size: 0.8rem;
@@ -483,6 +489,7 @@ section {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    border-right: none;
   }
   .aside-content .name {
     margin-top: 2.5rem;
