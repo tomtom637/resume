@@ -72,12 +72,11 @@
 @media (max-width: 850px) {
   .main-content {
     .date-n-location {
-      flex-direction: column;
-      justify-content: start;
-      min-width: 5rem;
+      display: block;
+      min-width: 4.5rem;
     }
     .bullet {
-      margin-bottom: 1rem;
+      display: none;
     }
     .date-parag {
       font-size: 0.7rem;
@@ -85,6 +84,18 @@
     }
     .description-parag {
       font-size: 0.8rem;
+    }
+    .references-info {
+      flex-direction: column;
+      align-items: center;
+    }
+    .reference-details {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+    .reference-details:last-child {
+      margin-bottom: 0;
     }
   }
 }
