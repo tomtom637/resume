@@ -210,6 +210,10 @@ a {
   border-bottom: 1px solid #6a98aa;
 }
 
+a:hover {
+  color: #6a98aa;
+}
+
 section {
   margin-bottom: 3.5rem;
 }
