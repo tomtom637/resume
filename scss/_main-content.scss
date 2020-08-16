@@ -20,9 +20,31 @@
     margin-right: 0.8rem;
     color: $primary-bright;
   }
+  .skills-li {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    outline: 1px solid $primary-bright;
+    padding: 0.6rem 1.1rem;
+    box-shadow: 6px 10px 16px rgba(0, 0, 0, 0.07);
+    transition: outline 0.1s ease-out;
+  }
+  .skill-description {
+    font-weight: 900;
+    font-size: 1.1rem;
+    margin-bottom: 0.3rem;
+  }
+  .skill-rating {
+    color: $primary-bright;
+    font-size: 0.7rem;
+  }
+  .skills-li:hover {
+    outline: 1px solid rgba(106, 152, 170, 0.55);
+  }
   .infos {
     max-width: calc(100% - 30px);
     margin-bottom: 2rem;
+    justify-content: start;
   }
   .date-n-location {
     min-width: 10rem;
@@ -70,6 +92,12 @@
 
 @media (max-width: 850px) {
   .main-content {
+    .skills-li {
+      display: block;
+      width: 65%;
+      text-align: center;
+      margin: 0 auto 2rem auto;
+    }
     .date-n-location {
       display: block;
       min-width: 4.5rem;

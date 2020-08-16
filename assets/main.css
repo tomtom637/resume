@@ -208,6 +208,8 @@ a {
   color: inherit;
   padding-bottom: 0.01rem;
   border-bottom: 1px solid #6a98aa;
+  -webkit-transition: color 0.1s ease-out;
+  transition: color 0.1s ease-out;
 }
 
 a:hover {
@@ -280,9 +282,39 @@ section {
   color: #6a98aa;
 }
 
+.main-content .skills-li {
+  display: inline-block;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+  outline: 1px solid #6a98aa;
+  padding: 0.6rem 1.1rem;
+  -webkit-box-shadow: 6px 10px 16px rgba(0, 0, 0, 0.07);
+          box-shadow: 6px 10px 16px rgba(0, 0, 0, 0.07);
+  -webkit-transition: outline 0.1s ease-out;
+  transition: outline 0.1s ease-out;
+}
+
+.main-content .skill-description {
+  font-weight: 900;
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+
+.main-content .skill-rating {
+  color: #6a98aa;
+  font-size: 0.7rem;
+}
+
+.main-content .skills-li:hover {
+  outline: 1px solid rgba(106, 152, 170, 0.55);
+}
+
 .main-content .infos {
   max-width: calc(100% - 30px);
   margin-bottom: 2rem;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
 }
 
 .main-content .date-n-location {
@@ -339,6 +371,12 @@ section {
 }
 
 @media (max-width: 850px) {
+  .main-content .skills-li {
+    display: block;
+    width: 65%;
+    text-align: center;
+    margin: 0 auto 2rem auto;
+  }
   .main-content .date-n-location {
     display: block;
     min-width: 4.5rem;
@@ -454,7 +492,7 @@ section {
 
 .aside-content .name {
   position: relative;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   word-spacing: 0.7rem;
   letter-spacing: 0.05rem;
   line-height: 2.1rem;
@@ -465,9 +503,10 @@ section {
   margin-top: 2.7rem;
   margin-bottom: 2.5rem;
   padding: 0.5rem 0;
-  color: #222;
-  font-weight: 900;
-  background: rgba(4, 109, 151, 0.4);
+  border-top: 3px solid rgba(4, 109, 151, 0.25);
+  border-bottom: 3px solid rgba(4, 109, 151, 0.25);
+  color: #94aab3;
+  font-weight: 300;
 }
 
 .aside-content .contact {

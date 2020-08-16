@@ -63,7 +63,7 @@
   }
   .name {
     position: relative;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     word-spacing: 0.7rem;
     letter-spacing: 0.05rem;
     line-height: 2.1rem;
@@ -72,9 +72,10 @@
     margin-top: 2.7rem;
     margin-bottom: 2.5rem;
     padding: 0.5rem 0;
-    color: $black;
-    font-weight: 900;
-    background: $primary-transparent;
+    border-top: 3px solid rgba(4, 109, 151, 0.25);
+    border-bottom: 3px solid rgba(4, 109, 151, 0.25);
+    color: #94aab3;
+    font-weight: 300;
   }
   .contact {
     flex-grow: 0;

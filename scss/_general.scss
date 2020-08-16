@@ -45,6 +45,7 @@ a {
   color: inherit;
   padding-bottom: 0.01rem;
   border-bottom: 1px solid #6a98aa;
+  transition: color 0.1s ease-out;
 }
 a:hover {
   color: #6a98aa;
