@@ -347,6 +347,7 @@ section {
 .main-content .description-sub-heading {
   margin-bottom: 1rem;
   font-size: 0.9rem;
+  line-height: 1.1rem;
   color: #666;
   text-transform: capitalize;
 }
