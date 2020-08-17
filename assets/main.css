@@ -499,6 +499,10 @@ section {
   margin-left: 0.4rem;
 }
 
+.aside-content .comment {
+  color: #6a98aa;
+}
+
 .aside-content .hobbies-icons {
   font-size: 30px;
   display: block;
