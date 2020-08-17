@@ -93,11 +93,21 @@
 
 @media (max-width: 850px) {
   .main-content {
+    .skills-ul {
+      display: flex;
+      flex-wrap: wrap;
+    }
     .skills-li {
       display: block;
-      width: 65%;
+      width: 37%;
       text-align: center;
       margin: 0 auto 2rem auto;
+    }
+    .skill-description {
+      font-size: 1rem;
+    }
+    .skill-rating {
+      font-size: 0.5rem;
     }
     .date-n-location {
       display: block;

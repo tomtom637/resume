@@ -372,11 +372,24 @@ section {
 }
 
 @media (max-width: 850px) {
+  .main-content .skills-ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
   .main-content .skills-li {
     display: block;
-    width: 65%;
+    width: 37%;
     text-align: center;
     margin: 0 auto 2rem auto;
+  }
+  .main-content .skill-description {
+    font-size: 1rem;
+  }
+  .main-content .skill-rating {
+    font-size: 0.5rem;
   }
   .main-content .date-n-location {
     display: block;
@@ -556,7 +569,7 @@ section {
     border-right: none;
   }
   .aside-content .name {
-    margin-top: 2.5rem;
+    margin-top: 0.5rem;
     margin-bottom: 3rem;
     padding: 0.5rem 1rem;
   }
