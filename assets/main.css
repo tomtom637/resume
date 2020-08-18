@@ -379,6 +379,9 @@ section {
 }
 
 @media (max-width: 850px) {
+  .main-content {
+    padding: 0 3px;
+  }
   .main-content .hero-header {
     font-size: 1.8rem;
     line-height: 2rem;
@@ -484,7 +487,6 @@ section {
 }
 
 .aside-content .aside-header {
-  font-family: 'Anonymous Pro', monospace;
   font-weight: bold;
   position: relative;
   color: #6a98aa;
@@ -611,6 +613,11 @@ section {
     margin-top: 0.5rem;
     margin-bottom: 3rem;
     padding: 0.5rem 1rem;
+  }
+  .aside-content .aside-header {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
   }
   .aside-content .aside-parag {
     text-align: center;
