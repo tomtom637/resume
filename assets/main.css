@@ -259,8 +259,9 @@ section {
 }
 
 .main-content .hero-header {
-  font-size: 2.2rem;
+  font-size: 3rem;
   font-weight: 900;
+  line-height: 3rem;
 }
 
 .main-content .keyword {
@@ -305,6 +306,11 @@ section {
 .main-content .skills-li:hover {
   -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.18);
           box-shadow: 0 0 6px rgba(0, 0, 0, 0.18);
+}
+
+.main-content .section-software p {
+  color: #555;
+  font-style: italic;
 }
 
 .main-content .infos {
@@ -373,6 +379,7 @@ section {
 @media (max-width: 850px) {
   .main-content .hero-header {
     font-size: 1.8rem;
+    line-height: 2rem;
   }
   .main-content .skills-ul {
     display: -webkit-box;
