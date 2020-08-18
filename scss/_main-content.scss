@@ -45,8 +45,10 @@
   }
   .section-software {
     p {
-      color: #555;
+      color: #777;
+      line-height: 1.7rem;
       font-style: italic;
+      font-size: 1.15rem;
     }
   }
   .infos {
@@ -150,6 +152,12 @@
     }
     .reference-details:last-child {
       margin-bottom: 0;
+    }
+    .section-software {
+      p {
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+      }
     }
   }
 }
