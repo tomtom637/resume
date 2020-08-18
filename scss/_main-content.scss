@@ -1,12 +1,12 @@
 .main-content {
   width: 70%;
   background: rgb(249, 249, 249);
-  background: linear-gradient(118deg, #f9f9f9 0%, #c5c5c5 90%);
+  background: linear-gradient(118deg, #fff 0%, #ddd 90%);
   padding-left: 1rem;
 
   .hero-header {
     font-size: 2.2rem;
-    font-weight: 700;
+    font-weight: 900;
   }
   .keyword {
     font-weight: 100;
@@ -24,14 +24,15 @@
     display: inline-block;
     margin-right: 1rem;
     margin-bottom: 2rem;
-    outline: 1px solid $primary-bright;
+    /* outline: 1px solid $primary-bright; */
     padding: 0.6rem 1.1rem;
-    box-shadow: 6px 10px 16px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
     transition: outline 0.1s ease-out;
   }
   .skill-description {
-    font-weight: 900;
-    font-size: 1.1rem;
+    font-weight: 400;
+    font-size: 1rem;
     margin-bottom: 0.3rem;
   }
   .skill-rating {
@@ -39,7 +40,7 @@
     font-size: 0.7rem;
   }
   .skills-li:hover {
-    outline: 1px solid rgba(106, 152, 170, 0.55);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.18);
   }
   .infos {
     max-width: calc(100% - 30px);
@@ -61,8 +62,6 @@
   .date-parag {
     font-size: 0.9rem;
   }
-  .description {
-  }
   .description-heading {
     margin-bottom: 0.3rem;
     text-transform: uppercase;
@@ -76,6 +75,7 @@
   }
   .description-parag {
     max-width: 700px;
+    color: #444;
   }
   .reference-name {
     font-size: 1rem;
@@ -93,6 +93,9 @@
 
 @media (max-width: 850px) {
   .main-content {
+    .hero-header {
+      font-size: 1.8rem;
+    }
     .skills-ul {
       display: flex;
       flex-wrap: wrap;

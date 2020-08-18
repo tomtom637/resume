@@ -26,7 +26,7 @@
   );
   color: $white;
   width: 26%;
-  border-right: 3px solid $white-transparent;
+  border-right: 3px solid $primary-bright;
   display: flex;
   flex-direction: column;
 
@@ -53,12 +53,18 @@
     z-index: -1;
   }
   .aside-parag {
+    line-height: 1.2rem;
     max-width: 300px;
     margin-bottom: 1rem;
     margin-left: 0.4rem;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .about-me .aside-parag {
+    line-height: 1.4rem;
+    font-weight: 400;
   }
   .comment {
-    color: $primary-bright;
+    line-height: 1.2rem;
   }
   .hobbies-icons {
     font-size: 30px;
@@ -75,22 +81,33 @@
     margin-top: 2.7rem;
     margin-bottom: 2.5rem;
     padding: 0.5rem 0;
-    border-top: 3px solid rgba(4, 109, 151, 0.25);
-    border-bottom: 3px solid rgba(4, 109, 151, 0.25);
-    color: #94aab3;
+    color: $white;
     font-weight: 300;
+  }
+  .name::after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 125px;
+    background: rgba(4, 109, 151, 0.7);
+    z-index: 40;
+    left: 50%;
+    bottom: -2px;
+    transform: translateX(-50%);
   }
   .contact {
     flex-grow: 0;
   }
   .question {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 900;
     color: $primary-bright;
+    letter-spacing: 0.1rem;
   }
   .answer {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   .about-me {
     flex-grow: 2;
