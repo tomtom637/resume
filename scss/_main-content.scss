@@ -100,7 +100,7 @@
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 700px) {
   .main-content {
     padding: 0 3px;
     .hero-header {
@@ -113,9 +113,9 @@
     }
     .skills-li {
       display: block;
-      width: 37%;
+      width: 30%;
       text-align: center;
-      margin: 0 auto 2rem auto;
+      margin: 0 auto 1rem auto;
     }
     .skill-description {
       font-size: 1rem;

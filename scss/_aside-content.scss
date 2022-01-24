@@ -25,6 +25,7 @@
     rgba(4, 110, 151, 1) 92%
   );
   color: $white;
+  min-width: 285px;
   width: 26%;
   border-right: 3px solid $primary-bright;
   display: flex;
@@ -116,7 +117,7 @@
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 700px) {
   .aside-content::before {
     height: 5px;
     transform: skewY(0) translatey(0);
@@ -126,6 +127,7 @@
     display: none;
   }
   .aside-content {
+    min-width: 100%;
     align-items: center;
     border-right: none;
 
