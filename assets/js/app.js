@@ -12,6 +12,6 @@ function translate() {
     translationButton.style.backgroundImage = `url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1600px-Flag_of_the_United_Kingdom.svg.png')`;
     translationState = true;
   } else {
-    document.location.href="/";
+    document.location.href="https://tomtom637.github.io/resume/";
   }
 }
