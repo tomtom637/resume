@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Resume - Thomas Lacombe</title>
+    <title data-translation="title">Resume - Thomas Lacombe</title>
     <meta
       name="description"
       content="My online resume, feel free to review it and contact me :)"
@@ -31,6 +31,7 @@
           !ASIDE
         -->
         <aside class="aside-content">
+          <button class="translation-button" id="translation-button"></button>
           <div class="container">
             <h2 class="name">Thomas LACOMBE</h2>
           </div>
@@ -39,11 +40,11 @@
             <h2 class="aside-header">CONTACT</h2>
             <div class="container">
               <p class="aside-parag">
-                <span class="question">Address:</span><br />
+                <span class="question" data-translation="address">Address:</span><br />
                 <span class="answer">Montpellier, France</span>
               </p>
               <p class="aside-parag">
-                <span class="question">Mobile:</span><br />
+                <span class="question" data-translation="mobile">Mobile:</span><br />
                 <span class="answer"
                   ><a href="tel:+33671783589">+33 07 64 39 70 74</a></span
                 >
@@ -57,7 +58,7 @@
                 >
               </p>
               <p class="aside-parag">
-                <span class="question">Website:</span><br />
+                <span class="question" data-translation="website">Website:</span><br />
                 <span class="answer"><a href="#">coming soon...</a></span>
               </p>
               <p class="aside-parag">
@@ -65,16 +66,16 @@
                 <span class="answer">@tomtom637</span>
               </p>
               <br />
-              <p class="aside-parag comment">
+              <p class="aside-parag comment" data-translation="driver">
                 I have a driver license and my own transport
               </p>
             </div>
           </section>
           <!--ABOUT ME-->
           <section class="about-me">
-            <h2 class="aside-header">ABOUT ME</h2>
+            <h2 class="aside-header" data-translation="about">ABOUT ME</h2>
             <div class="container">
-              <p class="aside-parag">
+              <p class="aside-parag" data-translation="aboutContent">
                 In love with programming, the web, design, data, applications,
                 animations... I am shifting to work as a web developer, craving
                 for more knowledge and always pushing my skills to the next
@@ -84,7 +85,7 @@
           </section>
           <!--HOBBIES-->
           <section class="hobbies">
-            <h2 class="aside-header">HOBBIES</h2>
+            <h2 class="aside-header" data-translation="hobbies">HOBBIES</h2>
             <div class="container">
               <div class="flex-items">
                 <span class="hobbies-icons fas fa-running"></span>
@@ -106,7 +107,8 @@
             <div class="container">
               <div class="flex-items ai-center">
                 <h1 class="hero-header">
-                  <span class="hero-header keyword">Junior</span> Web Developer
+                  <span class="hero-header keyword">Junior</span> 
+                  <span data-translation="webDev">Web Developer</span>
                 </h1>
                 <img
                   class="profile-picture"
@@ -123,7 +125,7 @@
             <div class="container">
               <h2 class="main-header">
                 <span class="main-icon fas fa-laptop-code"></span>
-                SKILLS
+                <span data-translation="skills">SKILLS</span>
               </h2>
               <ul class="skills-ul">
                 <!--ITEM-->
@@ -238,7 +240,7 @@
                 </li>               
                 <!--ITEM-->
                 <li class="skills-li">
-                  <div class="skill-description">Vector Graphics</div>
+                  <div class="skill-description" data-translation="vector">Vector Graphics</div>
                   <div class="skill-rating">
                     <span class="fas fa-star"></span>
                     <span class="fas fa-star"></span>
@@ -249,7 +251,7 @@
                 </li>
                 <!--ITEM-->
                 <li class="skills-li">
-                  <div class="skill-description">Photo Editing</div>
+                  <div class="skill-description" data-translation="photo">Photo Editing</div>
                   <div class="skill-rating">
                     <span class="fas fa-star"></span>
                     <span class="fas fa-star"></span>
@@ -271,7 +273,7 @@
                 </li>
                 <!--ITEM-->
                 <li class="skills-li">
-                  <div class="skill-description">Guitar Shredding</div>
+                  <div class="skill-description" data-translation="guitar">Guitar Shredding</div>
                   <div class="skill-rating">
                     <span class="fas fa-star"></span>
                     <span class="fas fa-star"></span>
@@ -290,7 +292,7 @@
             <div class="container">
               <h2 class="main-header">
                 <span class="main-icon fas fa-school"></span>
-                EDUCATION
+                <span data-translation="education">EDUCATION</span>
               </h2>
               <!--FIRST ITEM-->
               <article class="infos flex-items">
@@ -306,7 +308,7 @@
                   <h4 class="description-sub-heading">
                     Full Stack Web Developer
                   </h4>
-                  <p class="description-parag">
+                  <p class="description-parag" data-translation="educationContent">
                     Working on academic validation for both front and back-end
                     developement with the Openclassroom education plateform
                   </p>
@@ -321,7 +323,7 @@
             <div class="container">
               <h2 class="main-header">
                 <span class="main-icon fas fa-building"></span>
-                EXPERIENCE
+                <span data-translation="experience">EXPERIENCE</span>
               </h2>
               <!--FIRST ITEM-->
               <article class="infos flex-items">
@@ -334,10 +336,10 @@
                 </div>
                 <div class="description">
                   <h3 class="description-heading">Roc Eclerc</h3>
-                  <h4 class="description-sub-heading">
+                  <h4 class="description-sub-heading" data-translation="experienceSub">
                     Graphic Design, sales and team management
                   </h4>
-                  <p class="description-parag">
+                  <p class="description-parag" data-translation="experienceContent">
                     Roc Eclerc is a funeral company and I am amongst other
                     things, in charge of the monuments sales and articles
                     engraving. I am responsible for their design (both working
@@ -357,10 +359,10 @@
             <div class="container">
               <h2 class="main-header">
                 <span class="main-icon fas fa-save"></span>
-                Software I use
+                <span data-translation="software">Software I use</span>
               </h2>
               <p>
-                Windows 10, Mac OS, Linux Mint, Visual Studio Code, dBeaver, Postman, Adobe XD, Figma,
+                Windows 10, Mac OS, Linux Mint, Visual Studio Code, dBeaver, Postman, Adobe XD, Figma, Docker,
                 Inkscape, Illustrator, The Gimp ...
               </p>
             </div>
@@ -368,5 +370,6 @@
         </main>
       </div>
     </div>
+    <script type="module" src="assets/js/app.js"></script>
   </body>
 </html>
