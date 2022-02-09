@@ -18,12 +18,7 @@
 }
 .aside-content {
   position: relative;
-  background: rgb(6, 77, 105);
-  background: linear-gradient(
-    118deg,
-    rgba(6, 77, 105, 1) 0%,
-    rgba(4, 110, 151, 1) 92%
-  );
+  background: #1a3a5d;
   color: $white;
   min-width: 200px;
   width: 26%;
@@ -108,6 +103,13 @@
   }
   .answer {
     font-size: 0.9rem;
+  }
+  .email, .github {
+    font-size: 0.6rem;
+    text-transform: lowercase;
+    font-weight: 300;
+    color: $white;
+    letter-spacing: 0.05rem;
   }
   .about-me {
     flex-grow: 2;
