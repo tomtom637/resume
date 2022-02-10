@@ -2,6 +2,7 @@
   .aside-content {
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.05);
     border-right: none;
+    background: none;
   }
   .aside-content .name,
   .aside-content .aside-header,
