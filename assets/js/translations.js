@@ -2,7 +2,6 @@ const translations = {
   title: 'Curriculum Vitae - Thomas Lacombe',
   address: 'Adresse :',
   mobile: 'Téléphone :',
-  website: 'Site web :',
   driver: 'Je dispose du permis de conduire ainsi que d\'un véhicule',
   about: 'À PROPOS',
   aboutContent: 'Passionné de programmation, du web, de design, d\'applications, d\'animations... Je suis en phase de reconversion pour devenir développeur web full stack. Je cherche à en connaitre toujours plus dans ce domaine et à gagner en savoir-faire',
