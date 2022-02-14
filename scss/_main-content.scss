@@ -1,12 +1,12 @@
 .main-content {
-  width: 70%;
   background: rgb(249, 249, 249);
-  background: linear-gradient(118deg, #f9f9f9 0%, #c5c5c5 90%);
+  background: linear-gradient(118deg, #fff 0%, #ddd 90%);
   padding-left: 1rem;
 
   .hero-header {
-    font-size: 2.2rem;
-    font-weight: 700;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 3rem;
   }
   .keyword {
     font-weight: 100;
@@ -20,9 +20,44 @@
     margin-right: 0.8rem;
     color: $primary-bright;
   }
+  .skills-ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(4.6rem, 1fr));
+    gap: 0.7rem;
+  }
+  .skills-li {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    // padding: 0.3rem 0.6rem;
+    // box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+    // border-radius: 4px;
+    // transition: outline 0.1s ease-out;
+  }
+  .skill-description {
+    font-weight: 400;
+    font-size: 0.7rem;
+    margin-bottom: 0.3rem;
+  }
+  .skill-rating {
+    color: $primary-bright;
+    font-size: 0.4rem;
+  }
+  // .skills-li:hover {
+  //   box-shadow: 0 0 6px rgba(0, 0, 0, 0.18);
+  // }
+  .section-software {
+    p {
+      color: #777;
+      line-height: 1.7rem;
+      font-style: italic;
+      font-size: 1.15rem;
+    }
+  }
   .infos {
     max-width: calc(100% - 30px);
     margin-bottom: 2rem;
+    justify-content: start;
   }
   .date-n-location {
     min-width: 10rem;
@@ -39,8 +74,6 @@
   .date-parag {
     font-size: 0.9rem;
   }
-  .description {
-  }
   .description-heading {
     margin-bottom: 0.3rem;
     text-transform: uppercase;
@@ -48,11 +81,13 @@
   .description-sub-heading {
     margin-bottom: 1rem;
     font-size: 0.9rem;
+    line-height: 1.1rem;
     color: $grey;
     text-transform: capitalize;
   }
   .description-parag {
     max-width: 700px;
+    color: #444;
   }
   .reference-name {
     font-size: 1rem;
@@ -68,8 +103,31 @@
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 700px) {
   .main-content {
+    padding: 0 3px;
+    .hero-header {
+      font-size: 1.8rem;
+      line-height: 2rem;
+    }
+    // .skills-ul {
+    //   display: flex;
+    //   flex-wrap: wrap;
+    // }
+    .skills-li {
+      // display: block;
+      // width: 30%;
+      // text-align: center;
+      // margin: 0 auto 1rem auto;
+      // padding: 0;
+      // box-shadow: none;
+    }
+    // .skill-description {
+    //   font-size: 1rem;
+    // }
+    // .skill-rating {
+    //   font-size: 0.5rem;
+    // }
     .date-n-location {
       display: block;
       min-width: 4.5rem;
@@ -100,6 +158,13 @@
     }
     .reference-details:last-child {
       margin-bottom: 0;
+    }
+    .section-software {
+      p {
+        padding: 0 1rem;
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+      }
     }
   }
 }

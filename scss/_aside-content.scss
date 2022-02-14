@@ -18,20 +18,15 @@
 }
 .aside-content {
   position: relative;
-  background: rgb(6, 77, 105);
-  background: linear-gradient(
-    118deg,
-    rgba(6, 77, 105, 1) 0%,
-    rgba(4, 110, 151, 1) 92%
-  );
+  background: #1a3a5d;
   color: $white;
+  min-width: 200px;
   width: 26%;
-  border-right: 3px solid $white-transparent;
+  border-right: 3px solid $primary-bright;
   display: flex;
   flex-direction: column;
 
   .aside-header {
-    font-family: 'Anonymous Pro', monospace;
     font-weight: bold;
     position: relative;
     color: $primary-bright;
@@ -53,39 +48,56 @@
     z-index: -1;
   }
   .aside-parag {
+    line-height: 1.2rem;
     max-width: 300px;
     margin-bottom: 1rem;
     margin-left: 0.4rem;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .about-me .aside-parag {
+    line-height: 1.5rem;
+    font-weight: 400;
+  }
+  .comment {
+    line-height: 1.2rem;
   }
   .hobbies-icons {
-    font-size: 30px;
+    font-size: 25px;
     display: block;
   }
   .name {
     position: relative;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     word-spacing: 0.7rem;
     letter-spacing: 0.05rem;
-    line-height: 2.5rem;
+    line-height: 2.1rem;
     text-align: center;
     flex-grow: 0;
-    margin-top: 2.9rem;
-    margin-bottom: 3rem;
-    color: $black;
-    font-weight: 900;
-    background: $primary-transparent;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem 0;
+    color: $white;
+    font-weight: 300;
   }
   .contact {
     flex-grow: 0;
   }
   .question {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 900;
     color: $primary-bright;
+    letter-spacing: 0.1rem;
   }
   .answer {
-    font-size: 1rem;
+    font-size: 0.9rem;
+  }
+  .email, .github {
+    font-size: 0.6rem;
+    text-transform: lowercase;
+    font-weight: 300;
+    color: $white;
+    letter-spacing: 0.05rem;
   }
   .about-me {
     flex-grow: 2;
@@ -95,29 +107,43 @@
   }
 }
 
-@media (max-width: 850px) {
-  .aside-content::before {
-    height: 5px;
-    transform: skewY(0) translatey(0);
-    background: $primary-bright;
-  }
-  .aside-content::after {
-    display: none;
-  }
-  .aside-content {
-    align-items: center;
-    border-right: none;
+// @media (max-width: 700px) {
+//   .aside-content::before {
+//     height: 5px;
+//     transform: skewY(0) translatey(0);
+//     background: $primary-bright;
+//   }
+//   .aside-content::after {
+//     display: none;
+//   }
+//   .aside-content {
+//     min-width: 100%;
+//     align-items: center;
+//     border-right: none;
 
-    .name {
-      margin-top: 2.5rem;
-      margin-bottom: 3rem;
-      padding: 0.5rem 1rem;
-    }
-    .aside-parag {
-      text-align: center;
-    }
-    .hobbies-icons {
-      margin: 0 1.5rem 0 1.5rem;
-    }
+//     section {
+//       margin-bottom: 1.9rem;
+//     }
+//     .name {
+//       margin-top: 0.5rem;
+//       margin-bottom: 1.9rem;
+//       padding: 0.5rem 1rem;
+//     }
+//     .aside-header {
+//       display: block;
+//       width: 50%;
+//       margin: 0 auto;
+//     }
+//     .aside-parag {
+//       text-align: center;
+//     }
+//     .hobbies-icons {
+//       margin: 0 1.5rem 0 1.5rem;
+//     }
+//   }
+// }
+@media (max-width: 700px) {
+  .aside-content {
+    font-size: 14px;
   }
 }

@@ -3,18 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Resume - Thomas Lacombe</title>
+    <title data-translation="title">Resume - Thomas Lacombe</title>
     <meta
       name="description"
       content="My online resume, feel free to review it and contact me :)"
     />
-    <link rel="icon" href="/assets/imgs/favicon.ico" type="image/x-icon" sizes="16x16">
     <link
-      href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-      rel="stylesheet"
+      rel="icon"
+      href="/assets/imgs/favicon.ico"
+      type="image/x-icon"
+      sizes="16x16"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
       rel="stylesheet"
     />
     <script
@@ -22,6 +23,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="assets/main.css" />
+    <link rel="stylesheet" href="assets/print.css" media="print">
   </head>
   <body>
     <div class="wrapper">
@@ -30,62 +32,70 @@
           !ASIDE
         -->
         <aside class="aside-content">
-            <div class="container">
-              <h2 class="name">Thomas Lacombe</h2>
-            </div>
+          <div class="button-container">
+            <button class="translation-button" id="translation-button"></button>
+            <button class="print" id="print">Print</button>
+          </div>
+          <div class="container">
+            <h2 class="name">Thomas LACOMBE</h2>
+          </div>
           <!--CONTACT-->
           <section class="contact">
             <h2 class="aside-header">CONTACT</h2>
             <div class="container">
               <p class="aside-parag">
-                <span class="question">Address:</span><br />
-                <span class="answer">New Delhi, India</span>
+                <span class="question" data-translation="address">Address:</span><br />
+                <span class="answer">Montpellier, France</span>
               </p>
               <p class="aside-parag">
-                <span class="question">Mobile:</span><br />
-                <span class="answer"><a href="tel:+91 991919191">+91 991919191</a></span>
+                <span class="question" data-translation="mobile">Mobile:</span><br />
+                <span class="answer"
+                  ><a href="tel:+33671783589">+33 07 64 39 70 74</a></span
+                >
               </p>
               <p class="aside-parag">
                 <span class="question">Email:</span><br />
-                <span class="answer"><a href="mailto:name@email.com">name@email.com</a></span>
+                <span class="answer email"
+                  ><a href="mailto:thomas.lacombe.dev@gmail.com"
+                    >thomas.lacombe.dev@gmail.com</a
+                  ></span
+                >
               </p>
               <p class="aside-parag">
-                <span class="question">Website:</span><br />
-                <span class="answer"><a href="www.name.com">www.name.com</a></span>
+                <span class="question">Github:</span><br />
+                <span class="answer github"><a href="https://github.com/tomtom637">https://github.com/tomtom637</a></span>
               </p>
               <p class="aside-parag">
                 <span class="question">Skype:</span><br />
-                <span class="answer">@username</span>
+                <span class="answer">@tomtom637</span>
+              </p>
+              <br />
+              <p class="aside-parag comment" data-translation="driver">
+                I have a driver license and my own transport
               </p>
             </div>
           </section>
           <!--ABOUT ME-->
           <section class="about-me">
-            <h2 class="aside-header">ABOUT ME</h2>
+            <h2 class="aside-header" data-translation="about">ABOUT ME</h2>
             <div class="container">
-              <p class="aside-parag">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque
-                ut dolore corrupti! Praesentium accusantium quae alias eaque
-                tempore, laboriosam error blanditiis repellat molestias culpa
-                obcaecati eos non consectetur? Impedit quia error ipsa officia
-                aperiam nam, atque repudiandae animi consequatur eaque ad
-                reprehenderit temporibus minus tenetur amet fugiat voluptatem
-                omnis repellat autem sequi alias illum commodi laudantium velit!
-                Dignissimos esse est ducimus suscipit repudiandae quos iste
-                blanditiis? Totam, cupiditate ipsum! Ratione voluptates, odio
-                ipsam similique voluptas, blanditiis amet laborum ducimus beatae
-                sequi dolor deserunt.
+              <p class="aside-parag" data-translation="aboutContent">
+                In love with programming, the web, design, data, applications,
+                animations... I am shifting to work as a web developer, craving
+                for more knowledge and always pushing my skills to the next
+                level!
               </p>
             </div>
           </section>
           <!--HOBBIES-->
           <section class="hobbies">
-            <h2 class="aside-header">HOBBIES</h2>
+            <h2 class="aside-header" data-translation="hobbies">HOBBIES</h2>
             <div class="container">
               <div class="flex-items">
                 <span class="hobbies-icons fas fa-running"></span>
                 <span class="hobbies-icons fas fa-guitar"></span>
                 <span class="hobbies-icons fas fa-luggage-cart"></span>
+                <span class="hobbies-icons fas fa-gamepad"></span>
               </div>
             </div>
           </section>
@@ -101,14 +111,182 @@
             <div class="container">
               <div class="flex-items ai-center">
                 <h1 class="hero-header">
-                  <span class="hero-header keyword">Junior</span> Web Developer
+                  <span class="hero-header keyword">Junior</span> 
+                  <span data-translation="webDev">Web Developer</span>
                 </h1>
                 <img
                   class="profile-picture"
-                  src="assets/imgs/profile.jpg"
+                  src="assets/imgs/profile2.jpg"
                   alt="Thomas Lacombe"
                 />
               </div>
+            </div>
+          </section>
+          <!--
+          ?SECTION SKILLS
+          -->
+          <section class="section-skills">
+            <div class="container">
+              <h2 class="main-header">
+                <span class="main-icon fas fa-laptop-code"></span>
+                <span data-translation="skills">SKILLS</span>
+              </h2>
+              <ul class="skills-ul">
+                <!--ITEM-->
+                <li class="skills-li">
+                  <div class="skill-description">Javascript</div>
+                  <div class="skill-rating">
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                    <span class="far fa-circle"></span>
+                  </div>
+                </li>
+                <!--ITEM-->
+                <li class="skills-li">
+                  <div class="skill-description">HTML</div>
+                  <div class="skill-rating">
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                    <span class="far fa-circle"></span>
+                  </div>
+                </li>
+                <!--ITEM-->
+                <li class="skills-li">
+                  <div class="skill-description">CSS</div>
+                  <div class="skill-rating">
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                    <span class="far fa-circle"></span>
+                  </div>
+                </li>
+                <!--ITEM-->
+                <li class="skills-li">
+                  <div class="skill-description">SQL</div>
+                  <div class="skill-rating">
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                    <span class="far fa-circle"></span>
+                  </div>
+                </li>
+                <!--ITEM-->
+                <li class="skills-li">
+                  <div class="skill-description">MongoDB</div>
+                  <div class="skill-rating">
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                    <span class="far fa-circle"></span>
+                  </div>
+                </li>
+                <!--ITEM-->
+                <li class="skills-li">
+                  <div class="skill-description">NodeJS (Express)</div>
+                  <div class="skill-rating">
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                    <span class="far fa-circle"></span>
+                  </div>
+                </li>
+                <!--ITEM-->
+                <li class="skills-li">
+                  <div class="skill-description">PHP</div>
+                  <div class="skill-rating">
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                    <span class="far fa-circle"></span>
+                    <span class="far fa-circle"></span>
+                  </div>
+                </li>
+                <!--ITEM-->
+                <li class="skills-li">
+                  <div class="skill-description">Prestashop</div>
+                  <div class="skill-rating">
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                    <span class="far fa-circle"></span>
+                  </div>
+                </li>
+                <!--ITEM-->
+                <li class="skills-li">
+                  <div class="skill-description">GIT</div>
+                  <div class="skill-rating">
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                    <span class="far fa-circle"></span>
+                  </div>
+                </li> 
+                <!--ITEM-->
+                <li class="skills-li">
+                  <div class="skill-description">ReactJS</div>
+                  <div class="skill-rating">
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                    <span class="far fa-circle"></span>
+                    <span class="far fa-circle"></span>
+                  </div>
+                </li>               
+                <!--ITEM-->
+                <li class="skills-li">
+                  <div class="skill-description" data-translation="vector">Vector Graphics</div>
+                  <div class="skill-rating">
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                    <span class="far fa-circle"></span>
+                  </div>
+                </li>
+                <!--ITEM-->
+                <li class="skills-li">
+                  <div class="skill-description" data-translation="photo">Photo Editing</div>
+                  <div class="skill-rating">
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                    <span class="far fa-circle"></span>
+                  </div>
+                </li>
+                <!--ITEM-->
+                <li class="skills-li">
+                  <div class="skill-description">English</div>
+                  <div class="skill-rating">
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                  </div>
+                </li>
+                <!--ITEM-->
+                <li class="skills-li">
+                  <div class="skill-description" data-translation="guitar">Guitar Shredding</div>
+                  <div class="skill-rating">
+                    <span class="fas fa-circle"></span>
+                    <span class="fas fa-circle"></span>
+                    <span class="far fa-circle"></span>
+                    <span class="far fa-circle"></span>
+                    <span class="far fa-circle"></span>
+                  </div>
+                </li>
+              </ul>
             </div>
           </section>
           <!--
@@ -118,49 +296,25 @@
             <div class="container">
               <h2 class="main-header">
                 <span class="main-icon fas fa-school"></span>
-                EDUCATION
+                <span data-translation="education">EDUCATION</span>
               </h2>
               <!--FIRST ITEM-->
               <article class="infos flex-items">
                 <div class="date-n-location">
                   <span class="bullet far fa-dot-circle"></span>
                   <p class="date-parag">
-                    2016 - 2017<br />
-                    <span class="location">Delhi</span>
+                    2021<br />
+                    <span class="location">Montpellier</span>
                   </p>
                 </div>
                 <div class="description">
                   <h3 class="description-heading">OPENCLASSROOMS</h3>
-                  <h4 class="description-sub-heading">Junior Web Developer</h4>
-                  <p class="description-parag">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Distinctio itaque aspernatur nobis a odit officia? Ipsum
-                    magnam reprehenderit modi rerum ex enim officiis.
-                    Reprehenderit quae nihil repellat perspiciatis ab dolores
-                    provident ipsam aliquid, exercitationem earum impedit illo
-                    ex praesentium error.
-                  </p>
-                </div>
-              </article>
-              <!--SECOND ITEM-->
-              <article class="infos flex-items">
-                <div class="date-n-location">
-                  <span class="bullet far fa-dot-circle"></span>
-                  <p class="date-parag">
-                    2014 - 2016<br />
-                    <span class="location">Delhi</span>
-                  </p>
-                </div>
-                <div class="description">
-                  <h3 class="description-heading">UNIVERSITY OF LOREM</h32>
-                  <h4 class="description-sub-heading">Graphic Designer</h4>
-                  <p class="description-parag">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Distinctio itaque aspernatur nobis a odit officia? Ipsum
-                    magnam reprehenderit modi rerum ex enim officiis.
-                    Reprehenderit quae nihil repellat perspiciatis ab dolores
-                    provident ipsam aliquid, exercitationem earum impedit illo
-                    ex praesentium error.
+                  <h4 class="description-sub-heading">
+                    Full Stack Web Developer
+                  </h4>
+                  <p class="description-parag" data-translation="educationContent">
+                    Working on academic validation for both front and back-end
+                    developement with the Openclassroom education plateform
                   </p>
                 </div>
               </article>
@@ -173,102 +327,53 @@
             <div class="container">
               <h2 class="main-header">
                 <span class="main-icon fas fa-building"></span>
-                EXPERIENCE
+                <span data-translation="experience">EXPERIENCE</span>
               </h2>
               <!--FIRST ITEM-->
               <article class="infos flex-items">
                 <div class="date-n-location">
                   <span class="bullet far fa-dot-circle"></span>
                   <p class="date-parag">
-                    2018 - Current<br />
-                    <span class="location">Bangalore</span>
+                    2006 - Current<br />
+                    <span class="location">Montpellier</span>
                   </p>
                 </div>
                 <div class="description">
-                  <h3 class="description-heading">DESIGN INC.</h3>
-                  <h4 class="description-sub-heading">Web Developer</h4>
-                  <p class="description-parag">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Distinctio itaque aspernatur nobis a odit officia? Ipsum
-                    magnam reprehenderit modi rerum ex enim officiis.
-                  </p>
-                </div>
-              </article>
-              <!--SECOND ITEM-->
-              <article class="infos flex-items">
-                <div class="date-n-location">
-                  <span class="bullet far fa-dot-circle"></span>
-                  <p class="date-parag">
-                    2018 - Current<br />
-                    <span class="location">Bangalore</span>
-                  </p>
-                </div>
-                <div class="description">
-                  <h3 class="description-heading">DESIGN INC.</h3>
-                  <h4 class="description-sub-heading">Web Developer</h4>
-                  <p class="description-parag">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Distinctio itaque aspernatur nobis a odit officia? Ipsum
-                    magnam reprehenderit modi rerum ex enim officiis.
-                  </p>
-                </div>
-              </article>
-              <!--THIRD ITEM-->
-              <article class="infos flex-items">
-                <div class="date-n-location">
-                  <span class="bullet far fa-dot-circle"></span>
-                  <p class="date-parag">
-                    2018 - Current<br />
-                    <span class="location">Bangalore</span>
-                  </p>
-                </div>
-                <div class="description">
-                  <h3 class="description-heading">DESIGN INC.</h3>
-                  <h4 class="description-sub-heading">Web Developer</h4>
-                  <p class="description-parag">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Distinctio itaque aspernatur nobis a odit officia? Ipsum
-                    magnam reprehenderit modi rerum ex enim officiis.
+                  <h3 class="description-heading">Roc Eclerc</h3>
+                  <h4 class="description-sub-heading" data-translation="experienceSub">
+                    Graphic Design, sales and team management
+                  </h4>
+                  <p class="description-parag" data-translation="experienceContent">
+                    Roc Eclerc is a funeral company and I am amongst other
+                    things, in charge of the monuments sales and articles
+                    engraving. I am responsible for their design (both working
+                    with 3D software (Sketchup, Blender) and 2D (Inkscape, the
+                    Gimp...) to create technical 3D plans, stencils, enhance and
+                    photoshop pictures for ceramic portraits. I help manage our
+                    small team of technicians.
                   </p>
                 </div>
               </article>
             </div>
           </section>
           <!--
-          ?SECTION REFERENCES
+          ?SECTION SOFTWARE I USE
         -->
-          <section class="section-references">
+          <section class="section-software">
             <div class="container">
               <h2 class="main-header">
-                <span class="main-icon fas fa-pen-nib"></span>
-                REFERENCES
+                <span class="main-icon fas fa-save"></span>
+                <span data-translation="software">Software I use</span>
               </h2>
-              <div class="references-info flex-items">
-                <!--FIRST ITEM-->
-                <div class="reference-details">
-                  <h3 class="reference-name">WILLIAM KIEMAN</h3>
-                  <h4 class="reference-position">Director, Design Company ltd.</h4>
-                  <p class="reference-parag">
-                    <a href="tel:0954-55-44-33">Phone: 0954 55 44 33</a>
-                    <br>
-                    <a href="mailto:name@email.com">Email: name@email.com</a>
-                  </p>
-                </div>
-                <!--SECOND ITEM-->
-                <div class="reference-details">
-                  <h3 class="reference-name">WILLIAM KIEMAN</h3>
-                  <h4 class="reference-position">Director, Design Company ltd.</h4>
-                  <p class="reference-parag">
-                    <a href="tel:0954-55-44-33">Phone: 0954 55 44 33</a>
-                    <br>
-                    <a href="mailto:name@email.com">Email: name@email.com</a>
-                  </p>
-                </div>
-              </div>
+              <p>
+                Windows 10, Mac OS, Linux Mint, Visual Studio Code, dBeaver, Postman, Adobe XD, Figma, Docker,
+                Inkscape, Illustrator, The Gimp ...
+              </p>
             </div>
           </section>
         </main>
       </div>
     </div>
+    <script type="module" src="assets/js/app.js"></script>
   </body>
 </html>
