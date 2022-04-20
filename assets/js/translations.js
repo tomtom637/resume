@@ -12,7 +12,7 @@ const translations = {
   photo: 'retouches d\'images',
   guitar: 'guitare',
   education: 'Éducation',
-  educationContent: 'Je viens tout just de valider mon dernier projet du parcour de développeur web full stack avec la plateforme Openclassrooms.',
+  educationContent: 'Je viens de terminer cette formation. <a href="http://165.22.192.63:3000/">Le dernier projet du programme Openclassrooms</a> était la conception d\'un réseau social d\'entreprise',
   experience: 'Expérience',
   experienceSub: 'Design graphique, ventes et responsable d\'Équipe',
   experienceContent: 'Roc Eclerc est une entreprise du funéraire et j\'étais entre autres choses résponsable de la vente des monuments funéraires et de la gravure des différents articles. J\'étais en charge de leur design (création graphique 3d et 2d), de l\'élaboration des plans techniques, des pochoirs, des retouches photos pour portraits en céramique. J\'aidais au management de notre équipe technique.',
