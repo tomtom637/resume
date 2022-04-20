@@ -12,10 +12,13 @@ const translations = {
   photo: 'retouches d\'images',
   guitar: 'guitare',
   education: 'Éducation',
-  educationContent: 'Je viens de terminer cette formation. <a href="http://165.22.192.63:3000/">Le dernier projet du programme Openclassrooms</a> était la conception d\'un réseau social d\'entreprise',
+  educationSub: 'développeur web full stack',
+  educationContent: 'Je viens de terminer cette formation. <a target="_blank" href="http://165.22.192.63:3000/">Le dernier projet du programme Openclassrooms</a> était la conception d\'un réseau social d\'entreprise',
   experience: 'Expérience',
   experienceSub: 'Design graphique, ventes et responsable d\'Équipe',
   experienceContent: 'Roc Eclerc est une entreprise du funéraire et j\'étais entre autres choses résponsable de la vente des monuments funéraires et de la gravure des différents articles. J\'étais en charge de leur design (création graphique 3d et 2d), de l\'élaboration des plans techniques, des pochoirs, des retouches photos pour portraits en céramique. J\'aidais au management de notre équipe technique.',
+  baranSub: 'Design et développement de fonctionnalités',
+  baranContent: 'Ma première participation à <a target="_blank" href="https://baran-shop.fr/">un projet e-commerce</a> pour aider un ami. J\'ai aidé à developper de nouvelles fonctionnalités sur ce projet Prestashop, ainsi qu\'à retoucher des images et le design.',
   software: 'Logiciels utilisés'
 };
 
