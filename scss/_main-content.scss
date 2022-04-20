@@ -24,10 +24,11 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(4.6rem, 1fr));
     gap: 0.7rem;
+    grid-auto-rows: 1fr;
   }
   .skills-li {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: start;
     // padding: 0.3rem 0.6rem;
     // box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
@@ -37,11 +38,11 @@
   .skill-description {
     font-weight: 400;
     font-size: 0.7rem;
-    margin-bottom: 0.3rem;
   }
   .skill-rating {
     color: $primary-bright;
     font-size: 0.4rem;
+    margin-bottom: 0.3rem;
   }
   // .skills-li:hover {
   //   box-shadow: 0 0 6px rgba(0, 0, 0, 0.18);
