@@ -8,163 +8,185 @@
     font-weight: 900;
     line-height: 3rem;
   }
+
   .keyword {
     font-weight: 100;
   }
+
   .main-header {
     margin-bottom: 2rem;
     font-size: 1.7rem;
     text-transform: uppercase;
   }
+
   .main-icon {
     margin-right: 0.8rem;
     color: $primary-bright;
   }
+
   .skills-ul {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(4.6rem, 1fr));
     gap: 0.7rem;
     grid-auto-rows: 1fr;
   }
+
   .skills-li {
     display: flex;
     flex-direction: column-reverse;
     justify-content: start;
-    // padding: 0.3rem 0.6rem;
-    // box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
-    // border-radius: 4px;
-    // transition: outline 0.1s ease-out;
   }
+
   .skill-description {
     font-weight: 400;
     font-size: 0.7rem;
   }
+
   .skill-rating {
     color: $primary-bright;
     font-size: 0.4rem;
     margin-bottom: 0.3rem;
-  }
-  // .skills-li:hover {
-  //   box-shadow: 0 0 6px rgba(0, 0, 0, 0.18);
-  // }
-  .section-software {
-    p {
-      color: #777;
-      line-height: 1.7rem;
-      font-style: italic;
-      font-size: 1.15rem;
-    }
-  }
-  .infos {
-    max-width: calc(100% - 30px);
-    margin-bottom: 2rem;
-    justify-content: start;
-  }
-  .date-n-location {
-    min-width: 10rem;
-    max-width: 17rem;
-    margin-right: 15px;
-    display: flex;
-    align-items: center;
-  }
-  .bullet {
-    font-size: 0.7rem;
-    margin-right: 0.65rem;
-    color: $primary-bright;
-  }
-  .date-parag {
-    font-size: 0.9rem;
-  }
-  .description-heading {
-    margin-bottom: 0.3rem;
-    text-transform: uppercase;
-  }
-  .description-sub-heading {
-    margin-bottom: 1rem;
-    font-size: 0.9rem;
-    line-height: 1.1rem;
-    color: $grey;
-    text-transform: capitalize;
-  }
-  .description-parag {
-    max-width: 700px;
-    color: #444;
-  }
-  .reference-name {
-    font-size: 1rem;
-    margin-bottom: 0.3rem;
-  }
-  .reference-position {
-    font-size: 0.8rem;
-    margin-bottom: 0.3rem;
-  }
-  .reference-parag {
-    font-size: 0.8rem;
-    line-height: 1.2rem;
-  }
-}
 
-@media (max-width: 700px) {
-  .main-content {
-    padding: 0 3px;
-    .hero-header {
-      font-size: 1.8rem;
-      line-height: 2rem;
-    }
-    // .skills-ul {
-    //   display: flex;
-    //   flex-wrap: wrap;
-    // }
-    .skills-li {
-      // display: block;
-      // width: 30%;
-      // text-align: center;
-      // margin: 0 auto 1rem auto;
-      // padding: 0;
-      // box-shadow: none;
-    }
-    // .skill-description {
-    //   font-size: 1rem;
-    // }
-    // .skill-rating {
-    //   font-size: 0.5rem;
-    // }
-    .date-n-location {
-      display: block;
-      min-width: 4.5rem;
-      padding-top: 0.5rem;
-    }
-    .bullet {
-      display: none;
-    }
-    .date-parag {
-      font-size: 0.7rem;
-      line-height: 0.8rem;
-      text-align: center;
-    }
-    .location {
-      display: block;
-      margin-top: 0.2rem;
-    }
-    .description-parag {
-      font-size: 0.8rem;
-    }
-    .references-info {
-      flex-wrap: wrap;
-    }
-    .reference-details {
-      flex-direction: column;
-      align-items: center;
-      margin-bottom: 2rem;
-    }
-    .reference-details:last-child {
-      margin-bottom: 0;
-    }
     .section-software {
       p {
-        padding: 0 1rem;
-        font-size: 0.9rem;
-        line-height: 1.5rem;
+        color: #777;
+        line-height: 1.7rem;
+        font-style: italic;
+        font-size: 1.15rem;
+      }
+    }
+
+    .infos {
+      max-width: calc(100% - 30px);
+      margin-bottom: 2rem;
+      justify-content: start;
+    }
+
+    .date-n-location {
+      min-width: 10rem;
+      max-width: 17rem;
+      margin-right: 15px;
+      display: flex;
+      align-items: center;
+    }
+
+    .bullet {
+      font-size: 0.7rem;
+      margin-right: 0.65rem;
+      color: $primary-bright;
+    }
+
+    .date-parag {
+      font-size: 0.9rem;
+    }
+
+    .description-heading {
+      margin-bottom: 0.3rem;
+      text-transform: uppercase;
+    }
+
+    .description-sub-heading {
+      margin-bottom: 1rem;
+      font-size: 0.9rem;
+      line-height: 1.1rem;
+      color: $grey;
+      text-transform: capitalize;
+    }
+
+    .description-parag {
+      max-width: 700px;
+      color: #444;
+    }
+
+    .reference-name {
+      font-size: 1rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .reference-position {
+      font-size: 0.8rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .reference-parag {
+      font-size: 0.8rem;
+      line-height: 1.2rem;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .main-content {
+      padding: 0 3px;
+
+      .hero-header {
+        font-size: 1.8rem;
+        line-height: 2rem;
+      }
+
+      // .skills-ul {
+      //   display: flex;
+      //   flex-wrap: wrap;
+      // }
+      .skills-li {
+        // display: block;
+        // width: 30%;
+        // text-align: center;
+        // margin: 0 auto 1rem auto;
+        // padding: 0;
+        // box-shadow: none;
+      }
+
+      // .skill-description {
+      //   font-size: 1rem;
+      // }
+      // .skill-rating {
+      //   font-size: 0.5rem;
+      // }
+      .date-n-location {
+        display: block;
+        min-width: 4.5rem;
+        padding-top: 0.5rem;
+      }
+
+      .bullet {
+        display: none;
+      }
+
+      .date-parag {
+        font-size: 0.7rem;
+        line-height: 0.8rem;
+        text-align: center;
+      }
+
+      .location {
+        display: block;
+        margin-top: 0.2rem;
+      }
+
+      .description-parag {
+        font-size: 0.8rem;
+      }
+
+      .references-info {
+        flex-wrap: wrap;
+      }
+
+      .reference-details {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2rem;
+      }
+
+      .reference-details:last-child {
+        margin-bottom: 0;
+      }
+
+      .section-software {
+        p {
+          padding: 0 1rem;
+          font-size: 0.9rem;
+          line-height: 1.5rem;
+        }
       }
     }
   }
