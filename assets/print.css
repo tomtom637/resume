@@ -48,11 +48,19 @@
   .ai-center {
     justify-content: flex-start;
   }
+  .section-title {
+    margin-bottom: 0;
+  }
   .main-content .hero-header {
     margin-right: 1rem;
+    font-size: 1.5rem;
   }
   .main-content .hero-header .keyword{
     margin-right: 0;
+  }
+  .main-content .main-header {
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
   }
 
   section {

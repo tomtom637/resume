@@ -33,7 +33,7 @@
 
   .skills-li {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: start;
   }
 
@@ -64,21 +64,23 @@
   }
 
   .date-n-location {
-    min-width: 10rem;
+    min-width: 5rem;
     max-width: 17rem;
-    margin-right: 15px;
+    margin-right: 2rem;
     display: flex;
     align-items: center;
+    flex-direction: column;
   }
 
   .bullet {
-    font-size: 0.7rem;
-    margin-right: 0.65rem;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
     color: $primary-bright;
   }
 
   .date-parag {
     font-size: 0.9rem;
+    text-align: center;
   }
 
   .description-heading {
