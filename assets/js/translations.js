@@ -12,7 +12,7 @@ const translations = {
   photo: 'retouches d\'images',
   guitar: 'guitare',
   education: 'Éducation',
-  educationSub: 'développeur web full stack (diplome de niveau 5, bac + 2)',
+  educationSub: 'développeur web full stack (diplôme de niveau 5, bac + 2)',
   educationContent: `<p class="description-parag">Cette formation couvre:</p><ul class="bulleted-list"><li>HTML, css, javascript</li><li>bonnes pratiques</li><li>les bases de données noSQL et SQL</li><li>NodeJS et le framework ExpressJS</li><li>framework Front-end (ReactJS)</li></ul><a class="main-link" target="_blank" href="http://165.22.192.63:3000/">Un aperçu de mon dernier projet consistant à construir un petit réseau social d'entreprise.</a>`,
   experience: 'Expérience',
   experienceSub: 'Design graphique, ventes et responsable d\'Équipe',
