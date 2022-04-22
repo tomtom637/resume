@@ -13,12 +13,12 @@ const translations = {
   guitar: 'guitare',
   education: 'Éducation',
   educationSub: 'développeur web full stack (diplôme de niveau 5, bac + 2)',
-  educationContent: `<p class="description-parag">Cette formation couvre:</p><ul class="bulleted-list"><li>HTML, css, javascript</li><li>bonnes pratiques</li><li>les bases de données noSQL et SQL</li><li>NodeJS et le framework ExpressJS</li><li>framework Front-end (ReactJS)</li></ul><a class="main-link" target="_blank" href="http://165.22.192.63:3000/">Un aperçu de mon dernier projet consistant à construir un petit réseau social d'entreprise.</a>`,
+  educationContent: `<p class="description-parag">Cette formation couvre:</p><ul class="bulleted-list"><li>HTML, css, javascript</li><li>Bonnes pratiques</li><li>Bases de données noSQL et SQL</li><li>NodeJS et le framework ExpressJS</li><li>Framework Front-end (ReactJS)</li></ul><a class="main-link" target="_blank" href="http://165.22.192.63:3000/">Un aperçu de mon dernier projet consistant à construire un petit réseau social d'entreprise.</a>`,
   experience: 'Expérience',
   experienceSub: 'Design graphique, ventes et responsable d\'Équipe',
-  experienceContent: 'Roc Eclerc est une entreprise du funéraire et j\'étais entre autres choses résponsable de la vente des monuments funéraires et de la gravure des différents articles. J\'étais en charge de leur design (création graphique 3d et 2d), de l\'élaboration des plans techniques, des pochoirs, des retouches photos pour portraits en céramique. J\'aidais au management de notre équipe technique.',
+  experienceContent: `<p class="description-parag">Au sein de cette entreprise funéraire, j'étais entre autres chargé de</p><ul class="bulleted-list"><li>Moderniser la profession en apportant des solutions 3d</li><li>Créer un réseau avec serveur local et l'entretenir</li><li>Vendre et conseiller sur l'achat d'articles funéraires, de monuments et de funérailles</li><li>Diriger notre équipe technique</li><li>Élaborer des plans techniques, des pochoirs, graver au jet de sable...</li></ul>`,
   baranSub: 'Design et développement de fonctionnalités',
-  baranContent: 'Ma première participation à <a target="_blank" href="https://baran-shop.fr/">un projet e-commerce</a> pour aider un ami. J\'ai aidé à developper de nouvelles fonctionnalités sur ce projet Prestashop, ainsi qu\'à retoucher des images et le design.',
+  baranContent: 'Ma première participation à <a target="_blank" href="https://baran-shop.fr/">un projet e-commerce</a> pour aider un ami. J\'ai aidé à développer de nouvelles fonctionnalités sur ce projet Prestashop, ainsi qu\'à retoucher des images et le design.',
   software: 'Logiciels utilisés'
 };
 
