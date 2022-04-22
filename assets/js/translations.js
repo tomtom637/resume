@@ -12,7 +12,7 @@ const translations = {
   photo: 'retouches d\'images',
   guitar: 'guitare',
   education: 'Éducation',
-  educationSub: 'développeur web full stack',
+  educationSub: 'développeur web full stack (diplome de niveau 5, bac + 2)',
   educationContent: 'Je viens de terminer cette formation. <a target="_blank" href="http://165.22.192.63:3000/">Le dernier projet du programme Openclassrooms</a> était la conception d\'un réseau social d\'entreprise',
   experience: 'Expérience',
   experienceSub: 'Design graphique, ventes et responsable d\'Équipe',
