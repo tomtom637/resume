@@ -1,11 +1,12 @@
 .main-content {
-  background: rgb(249, 249, 249);
-  background: linear-gradient(118deg, #fff 0%, #ddd 90%);
+  background: #fff;
   padding-left: 1rem;
 
   .section-title {
     padding: 0.5rem;
-    margin-bottom: -1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .hero-header {
@@ -82,7 +83,7 @@
 
   .date-parag {
     font-size: 0.7rem;
-    text-align: center;
+    text-align: right;
     line-height: 1.3;
   }
 

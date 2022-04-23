@@ -20,7 +20,7 @@
     border-right: none;
     background: none;
   }
-  .aside-content .name,
+
   .aside-content .aside-header,
   .aside-content .aside-parag,
   .aside-content a {
@@ -28,12 +28,12 @@
     text-align: left;
   }
   .aside-content .name {
-    margin: 0 0 1rem;
+    color: #111;
+    margin: 0.5rem 0 1rem;
     font-weight: bold;
   }
   .aside-content .aside-header {
     margin-left: 1rem;
-    margin-top: 0;
     border: none;
   }
   .aside-content .aside-header::before {
@@ -48,31 +48,50 @@
   .ai-center {
     justify-content: flex-start;
   }
-  .section-title {
-    margin-bottom: 0;
+  .main-content .section-title {
+    margin-top: 1.5rem;
   }
   .main-content .hero-header {
-    margin-right: 1rem;
     font-size: 1.5rem;
   }
-  .main-content .hero-header .keyword{
-    margin-right: 0;
-  }
+
   .main-content .main-header {
-    font-size: 1.2rem;
-    margin-bottom: 0.8rem;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
   }
 
   .main-content .main-link {
     display: none;
   }
 
-  section {
-    margin-bottom: 1rem;
+  .main-content .infos {
+    margin-bottom: 0.8rem;
   }
-  .container {
-    margin: 1rem 1rem;
+
+  .main-content .skill-rating {
+    font-size: 0.2rem;
   }
+
+  .main-content section {
+    margin: 0.5rem auto 0.5rem;
+  }
+
+  .main-content .container {
+    margin: 0 1rem;
+  }
+
+  .main-content article {
+    margin: 0;
+  }
+
+  .main-content .skills-ul {
+    gap: 0.3rem;
+  }
+
+  .main-content .section-software p {
+    font-size: 1rem;
+  }
+
   .print {
     display: none;
   }
