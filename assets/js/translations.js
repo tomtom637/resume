@@ -4,7 +4,7 @@ const translations = {
   mobile: 'Téléphone :',
   driver: 'Je dispose du permis de conduire ainsi que d\'un véhicule',
   about: 'À PROPOS',
-  aboutContent: 'Passionné de développement, d\'algorithmie, de design, de résolution de problèmes en général... Je suis un développeur web full stack vivant à Montpellier, France.',
+  aboutContent: 'Passionné de développement, d\'algorithmie, de design, de résolution de problèmes et de nouvelles technologies en général... Je suis un développeur web full stack vivant à Montpellier, France.',
   hobbies: 'MES PASSIONS',
   webDev: 'Développeur Web',
   skills: 'Compétences',
