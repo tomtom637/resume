@@ -35,12 +35,13 @@
   .aside-content .aside-header {
     margin-left: 1rem;
     border: none;
+    margin-bottom: -1rem;
   }
   .aside-content .aside-header::before {
     display: none;
   }
   .aside-content .aside-parag {
-    margin: 0 0 0.3rem;
+    margin: 0 0 0.6rem;
   }
   .translation-button {
     display: none;
@@ -60,9 +61,9 @@
     margin-bottom: 0.5rem;
   }
 
-  .main-content .main-link {
+  /* .main-content .main-link {
     display: none;
-  }
+  } */
 
   .main-content .infos {
     margin-bottom: 0.8rem;
