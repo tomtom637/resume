@@ -19,6 +19,7 @@
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.05);
     border-right: none;
     background: none;
+    max-height: 99%;
   }
 
   .aside-content .aside-header,
@@ -48,6 +49,9 @@
   }
   .ai-center {
     justify-content: flex-start;
+  }
+  .main-content {
+    max-height: 99%;
   }
   .main-content .section-title {
     margin-top: 1.5rem;
