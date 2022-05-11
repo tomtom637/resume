@@ -19,7 +19,6 @@ const translations = {
   qualityGlassContent: `<p class="description-parag">Mon premier <a target="_blank" href="https://www.qualityglass.fr/">projet de site web</a> pour un petit entrepreneur.</p><ul class="bulleted-list"><li>Réalisation et rédaction complète du site</li><li>PHP, css et JavaScript</li><li>Ajout des services google (maps, analytics, business et SEO)</li><li>Amélioration des images en utilisant GIMP</li></ul>`,
   baranSub: 'Design et développement de fonctionnalités avec Prestashop',
   baranContent: `<p class="description-parag">Mes premières participations à <a target="_blank" href="https://baran-shop.fr/">des projets e-commerce</a> avec un ami développeur.</p><ul class="bulleted-list"><li>Ajout de contenu avec PHP and Smarty</li><li>Ajout de fonctionnalités avec PHP et requêtes SQL</li><li>Édition des styles css et amélioration des images avec GIMP</li><li>Mise en place de Docker pour faciliter le développement</li></ul>`,
-  software: 'Logiciels utilisés'
 };
 
 export default translations;
