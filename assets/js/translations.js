@@ -11,7 +11,7 @@ const translations = {
   vector: 'dessin vectoriel',
   education: 'Formation',
   educationSub: 'développeur web full stack (diplôme de niveau 5, bac + 2)',
-  educationContent: `<p class="description-parag">Cette formation couvre:</p><ul class="bulleted-list"><li>HTML, css, javascript</li><li>Bonnes pratiques</li><li>Bases de données noSQL et SQL</li><li>NodeJS et le framework ExpressJS</li><li>Framework Front-end (ReactJS)</li></ul><a class="main-link" target="_blank" href="http://165.22.192.63:3000/">Un aperçu de mon dernier projet consistant à construire un petit réseau social d'entreprise.</a>`,
+  educationContent: `<ul class="bulleted-list"><li>HTML, css, javascript</li><li>Bonnes pratiques</li><li>Bases de données noSQL et SQL</li><li>NodeJS et le framework ExpressJS</li><li>Framework Front-end (ReactJS)</li></ul><a class="main-link" target="_blank" href="http://165.22.192.63:3000/">Un aperçu de mon dernier projet consistant à construire un petit réseau social d'entreprise.</a>`,
   experience: 'Expérience',
   experienceSub: 'Design graphique, ventes et responsable d\'Équipe',
   experienceContent: `<p class="description-parag">Au sein de cette entreprise funéraire, j'étais entre autres chargé de</p><ul class="bulleted-list"><li>Moderniser la profession en apportant des solutions 3d</li><li>Créer un réseau avec serveur local et l'entretenir</li><li>Vendre et conseiller sur l'achat d'articles funéraires, de monuments et de funérailles</li><li>Diriger notre équipe technique</li><li>Élaborer des plans techniques, des pochoirs, graver au jet de sable...</li></ul>`,
